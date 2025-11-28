@@ -39,7 +39,7 @@
 ```bash
 
 git clone https://github.com/cristian20021/VGG_CDM_Thesis.git  
-cd VGG_CDM_Thesis
+cd VGG-CDM
 
 pip install -r requirements.txt    
 ```
@@ -48,6 +48,4 @@ Run main.py file and choose which file you would like to process (image, video) 
 
 ## Acknowledgement
 This work was inspired by the PyTorch's implementation of [neural style transfer](https://docs.pytorch.org/tutorials/advanced/neural_style_tutorial.html)
-# VGG-CDM
-# VGG-CDM
-# VGG-CDM
+
