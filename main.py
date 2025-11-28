@@ -35,8 +35,8 @@ if __name__ == "__main__":
 
         if choice == 1:    
             try:
-                source_image = input( '\nProvide the name of the source image:\n' )
-                style_image = input( '\nProvide the name of the reference image:\n' )
+                source_image = input( '\nProvide the name of the source image (pick one from OneFrameOriginals folder, make sure to include the extension, e.g. Male1.jpg):\n' )
+                style_image = input( '\nProvide the name of the reference image (pick one from References folder, make sure to include the extension, e.g. Batman.jpg):\n' )
                 print( '\n' ) 
                 style_image_path = f"References/{ style_image }"
                 source_image_path = f"OneFrameOriginals/{ source_image }"
@@ -80,8 +80,8 @@ if __name__ == "__main__":
         
         elif choice == 2:
             try:
-                source_video = input( '\nProvide the name of the source video:\n' )
-                style_image = input( '\nProvide the name of the reference image:\n' )
+                source_video = input( '\nProvide the name of the source video (pick one from the Videos folder, make sure to include the extension, e.g. MaleVideo.mp4 ):\n' )
+                style_image = input( '\nProvide the name of the reference image (pick one from References folder, make sure to include the extension, e.g. Batman.jpg ):\n' )
                 if os.path.isfile( f"References/{ style_image}") and os.path.isfile( f"Videos/{ source_video }" ):
                     split_video_into_frames( f'Videos/{ source_video }',style_image )
 
