@@ -344,11 +344,11 @@ if __name__ == "__main__":
 
 
 
-                print( f'Final Avergae Delta E LHM Algorithm:          { average_delta_lhm:.4f}' )
+                print( f'\nFinal Avergae Delta E LHM Algorithm:          { average_delta_lhm:.4f}' )
                 print( f'Final Avergae Delta E PCCM Algorithm:         { average_delta_pccm:.4f}' )
                 print( f'Final Avergae Delta E Reinhard Algorithm:     { average_delta_reinhard:.4f}' ) 
                 print( f'Final Average Delta E VGG-19:                 { average_delta_vgg:.4f}' )
-                print( f'\nFinal Average Delta E VGG-19 Intermediatej:   { average_delta_vgg_intermediate:.4f}' )
+                print( f'Final Average Delta E VGG-19 Intermediatej:   { average_delta_vgg_intermediate:.4f}' )
             
         elif choice == 0:
                 break
