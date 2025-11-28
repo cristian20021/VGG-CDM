@@ -25,13 +25,17 @@
 - Processes a video in the style of a reference
 - Computes 3 benchmarks for evaluation purposes (SSIM, PSNR, Delta-E)
 
-## Architercture
+## Architecture
 - The deep layers of VGG-19 are frozen to capture only the colour of the reference image
 - A colour-related loss function is injected into the CNN
 - The image is passed through the modified CNN for 200 iterations, optimizing the pixels every time (if it is possible)
 - A soft blur filter is applied on the intermediate result to get rid of any unwanted textures inherited from the reference image
 - The intermediate and source images are merged using a hard filter
   ![Untitled (3)](https://github.com/user-attachments/assets/dddc3618-80e8-4af9-a223-540641e2f2d2)
+## Add your own media and files
+- All the source images are located in the OneFrameOriginals/ folder. If you want to add your own source images, make sure to put them here
+- All the reference images are located in the References/ folder. If you want to add your own reference images, make sure to put them here
+- All the videos are located in the Videos/ folder. If you want to add your own videos, make sure to put them here
 ## Prerequisites
 - Python 3.13
 - Libraries: torch, torchvision, opencv-python, numpy, Pillow, scikit-image, moviepy, colortrans\
