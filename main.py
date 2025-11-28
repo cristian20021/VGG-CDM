@@ -11,7 +11,15 @@ from PIL import Image, ImageChops
 
 
 if __name__ == "__main__":
-
+    if os.path.exists("AlgorithmicModelsOutput/.gitignore"):
+        os.remove("AlgorithmicModelsOutput/.gitignore")
+    if os.path.exists("OneFrameFinal/.gitignore"):
+        os.remove("OneFrameFinal/.gitignore")
+    if os.path.exists("OneFrameIntermediate/.gitignore"):
+        os.remove("OneFrameIntermediate/.gitignore")
+    if os.path.exists("Videos/VideosFinal/.gitignore"):
+        os.remove("Videos/VideosFinal/.gitignore")
+    
     print( "Loading the weights ..." )
     device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
     torch.set_default_device( device )
