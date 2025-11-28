@@ -35,12 +35,14 @@
 ## Prerequisites
 - Python 3.13
 - Libraries: torch, torchvision, opencv-python, numpy, Pillow, scikit-image, moviepy, colortrans\
-## Installation & Setup  
+## Installation & Setup 
+Clone the repo
 ```bash
-
 git clone https://github.com/cristian20021/VGG-CDM.git  
 cd VGG-CDM
-
+```
+Install the dependencies
+```bash
 pip install -r requirements.txt    
 ```
 ## Run
