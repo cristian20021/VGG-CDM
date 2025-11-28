@@ -51,6 +51,7 @@ pip install -r requirements.txt
 ```
 ## Run
 Run main.py file and choose which file you would like to process (image, video) or benchmark generation
+For the inputs just type the name of the file with the extension included (do not put the full path), e.g. Batman.jpg
 
 ## Acknowledgement
 This work was inspired by the PyTorch's implementation of [neural style transfer](https://docs.pytorch.org/tutorials/advanced/neural_style_tutorial.html)
