@@ -38,7 +38,7 @@
 - All the videos are located in the Videos/ folder. If you want to add your own videos, make sure to put them here
 ## Prerequisites
 - Python 3.13
-- Libraries: torch, torchvision, opencv-python, numpy, Pillow, scikit-image, moviepy, colortrans\
+- Libraries: torch, torchvision, opencv-python, numpy, Pillow, scikit-image, moviepy, colortrans
 ## Installation & Setup 
 Clone the repo
 ```bash
