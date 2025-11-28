@@ -38,7 +38,7 @@
 ## Installation & Setup  
 ```bash
 
-git clone https://github.com/cristian20021/VGG_CDM_Thesis.git  
+git clone https://github.com/cristian20021/VGG-CDM.git  
 cd VGG-CDM
 
 pip install -r requirements.txt    
